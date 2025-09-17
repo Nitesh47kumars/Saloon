@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import NavLinks from './NavLinks';
 import MobileMenu from './MobileMenu';
+import NavLogo from './NavLogo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +13,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <div className="flex-shrink-0 text-xl font-bold text-blue-600">
-            MyLogo
-          </div>
+          <NavLogo/>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-6">
