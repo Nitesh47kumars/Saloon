@@ -13,7 +13,7 @@ const HeroSection = () => {
         flex-col md:flex-row 
         items-center 
         justify-center md:justify-start
-        px-6 md:px-16 
+        px-4 md:ps-12 xl:ps-40
         overflow-hidden
       "
     >

@@ -2,9 +2,8 @@ import React from 'react';
 
 const HeroContent = () => {
   return (
-    <div className="max-w-2xl text-white z-10 px-4 md:px-0
+    <div className="max-w-2xl text-white z-10 
       text-center md:text-left
-      mt-16 md:mt-0
       mx-auto md:mx-0
     ">
       <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6">
