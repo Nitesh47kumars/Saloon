@@ -20,7 +20,7 @@ const HeroBackground = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 w-full h-[90%] z-[-1]">
+    <div className="absolute inset-0 w-screen h-[90%] z-[-1]">
       {images.map((img, idx) => (
         <img
           key={idx}
