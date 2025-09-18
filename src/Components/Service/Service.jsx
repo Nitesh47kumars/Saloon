@@ -2,46 +2,7 @@
 
 import React from 'react';
 import ServiceItem from './ServiceItem';
-
-const services = [
-  {
-    title: 'Hair Styling & Cuts',
-    description: 'Trendy haircuts, blowouts, and styling tailored to your face shape and lifestyle.',
-    image:
-      'https://media.istockphoto.com/id/1349298950/photo/close-up-of-unrecognizable-hairdresser-cutting-a-female-customer%C3%A2s-hair.jpg?s=612x612&w=0&k=20&c=s-FpOPuIcR5ULS7pKldF2AMNgmD2-sq_wzsTzqPUoxM=',
-    features: [
-      'Layered & precision cuts',
-      'Blow-dry & styling',
-      'Hair spa & deep conditioning',
-      'Keratin & smoothing treatments',
-    ],
-  },
-  {
-    title: 'Bridal Makeup',
-    description: 'Flawless makeup and styling to make you look stunning on your big day.',
-    image:
-      'https://images.jdmagicbox.com/v2/comp/def_content/ncat_id/11271913-4-250.jpg',
-    features: [
-      'HD & Airbrush makeup',
-      'Mehndi & saree draping',
-      'Hair styling & setting',
-      'Bridal trial sessions',
-    ],
-  },
-  {
-    title: 'Facials & Skin Care',
-    description:
-      'Relaxing facials and skin treatments using premium products to rejuvenate your skin.',
-    image:
-      'https://media.istockphoto.com/id/143920428/photo/young-beautiful-woman-having-various-facial-treatment.jpg?s=612x612&w=0&k=20&c=vr_1cfNwvKO7qBSiaR9IoGHrH0onFjMuKVjJYS3NsTE=',
-    features: [
-      'Gold & diamond facials',
-      'Acne & pigmentation treatment',
-      'Under-eye therapy',
-      'Skin rejuvenation peels',
-    ],
-  },
-];
+import services from './Services.json'
 
 const Services = () => {
   return (
