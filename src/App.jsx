@@ -6,12 +6,12 @@ import Service from './Components/Service/Service'
 function App() {
 
   return (
-    <>
+    <div className="font-secondary">
       <Navbar/>
       <HeroSection/>
       <About/>
       <Service/>
-    </>
+    </div>
   )
 }
 
