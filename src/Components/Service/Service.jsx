@@ -6,9 +6,9 @@ import services from './Services.json'
 
 const Services = () => {
   return (
-    <section id="services" className="bg-gray-50 py-20 px-6 md:px-20">
+    <section id="services" className="bg-gray-50 px-6 mt-25 md:mt-40">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-pink-600 mb-16">
+        <h2 className="text-4xl font-bold text-center text-pink-600 my-10 md:my-14">
           Our Services
         </h2>
 
