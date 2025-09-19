@@ -5,9 +5,6 @@ import React from 'react';
 const AboutContent = () => {
   return (
     <div className="w-full md:w-1/2">
-      <h2 className="text-3xl md:text-4xl font-bold text-pink-600 mb-4">
-        About Us
-      </h2>
       <p className="text-gray-700 text-lg leading-relaxed mb-4">
         Welcome to <strong>Glow & Grace Salon</strong> – your destination for beauty, confidence, and self-care.
         We specialize in hair styling, skincare, makeup, and more – tailored exclusively for women who want to

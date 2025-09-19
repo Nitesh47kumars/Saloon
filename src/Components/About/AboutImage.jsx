@@ -8,7 +8,7 @@ const AboutImage = () => {
       <img
         src="https://content.jdmagicbox.com/v2/comp/valsad/n6/9999p2632.2632.250318195320.u2n6/catalogue/dxvnuv3dolcnuiw-mjpei1s3ey.jpg"
         alt="Salon interior or team"
-        className="rounded-lg shadow-lg w-full"
+        className="rounded shadow-2xl w-full"
       />
     </div>
   );
