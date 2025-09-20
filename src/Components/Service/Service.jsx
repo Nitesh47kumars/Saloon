@@ -12,7 +12,7 @@ const Services = () => {
           Our Services
         </h2>
 
-        <div className="space-y-24">
+        <div className="space-y-50 py-10">
           {services.map((service, index) => (
             <ServiceItem
               key={index}
