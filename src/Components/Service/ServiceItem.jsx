@@ -1,7 +1,7 @@
-// src/components/Services/ServiceItem.jsx
-
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
+import {animation} from '../../Motion/Animation'
+import {motion} from 'framer-motion'
 
 const ServiceItem = ({ title, description, image, features = [], reverse }) => {
   return (
@@ -11,7 +11,12 @@ const ServiceItem = ({ title, description, image, features = [], reverse }) => {
       }`}
     >
       {/* Image */}
-      <div className="w-full md:w-1/2">
+      <div
+      variants={animation("right",0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{once:true,amount:0}}
+      className="w-full md:w-1/2">
         <img
           src={image}
           alt={title}
@@ -21,19 +26,39 @@ const ServiceItem = ({ title, description, image, features = [], reverse }) => {
 
       {/* Content */}
       <div className="w-full md:w-1/2">
-        <h3 className="text-3xl font-semibold text-pink-600 mb-4">{title}</h3>
+        <motion.h3 
+        variants={animation("down",0.2)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{once:true,amount:0}}
+        className="text-3xl font-semibold text-pink-600 mb-4">{title}</motion.h3>
 
-        <p className="text-gray-700 text-lg leading-relaxed mb-6">{description}</p>
+        <motion.p 
+        variants={animation("down",0.3)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{once:true,amount:0}}
+        className="text-gray-700 text-lg leading-relaxed mb-6">{description}</motion.p>
 
         {/* Features List */}
-        <ul className="space-y-3">
+        <motion.ul
+        variants={animation("down",0.4)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{once:true,amount:0}}
+        className="space-y-3">
           {features.map((item, idx) => (
-            <li key={idx} className="flex items-start text-gray-600 text-md">
+            <motion.li key={idx} 
+            variants={animation("down", 0.3 * idx)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{once:true,amount:0}}
+            className="flex items-start text-gray-600 text-md">
               <FaCheckCircle className="text-pink-500 mt-1 mr-2" />
               <span>{item}</span>
-            </li>
+            </motion.li>
           ))}
-        </ul>
+        </motion.ul>
       </div>
     </div>
   );
