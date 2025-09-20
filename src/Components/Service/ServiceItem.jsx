@@ -11,8 +11,8 @@ const ServiceItem = ({ title, description, image, features = [], reverse }) => {
       }`}
     >
       {/* Image */}
-      <div
-      variants={animation("right",0.2)}
+      <motion.div
+      variants={animation(`${reverse ? "left" : "right" }`,0.2)}
       initial="hidden"
       whileInView="show"
       viewport={{once:true,amount:0}}
@@ -22,7 +22,7 @@ const ServiceItem = ({ title, description, image, features = [], reverse }) => {
           alt={title}
           className="w-full h-[300px] md:h-[500px] object-cover rounded-lg shadow-xl"
         />
-      </div>
+      </motion.div>
 
       {/* Content */}
       <div className="w-full md:w-1/2">
