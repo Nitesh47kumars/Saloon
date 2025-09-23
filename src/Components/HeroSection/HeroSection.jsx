@@ -8,7 +8,7 @@ const HeroSection = () => {
       className="
         relative 
         w-full 
-        h-[95vh] 
+        h-[95vh]
         flex 
         flex-col md:flex-row 
         items-center 
