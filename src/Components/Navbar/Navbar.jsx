@@ -9,7 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <nav className="bg-white shadow-md sticky top-0 left-0 w-full z-50">
       <div className="w-full xl:w-[80%] mx-auto px-4 md:px-10">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
