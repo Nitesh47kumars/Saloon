@@ -20,7 +20,7 @@ const ServiceItem = ({ title, description, image, features = [], reverse }) => {
         <img
           src={image}
           alt={title}
-          className="w-full h-[300px] md:h-[500px] object-cover rounded-lg shadow-xl"
+          className="w-full h-[300px] md:h-[600px] object-cover rounded-lg shadow-xl"
         />
       </motion.div>
 
