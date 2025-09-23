@@ -6,13 +6,13 @@ import services from './Services.json'
 
 const Services = () => {
   return (
-    <section id="services" className="bg-gray-50 px-6 mt-25 md:mt-40 py-10">
-      <div className="w-[90%] xl:w-[80%] mx-auto">
-        <h2 className="text-4xl font-bold text-center text-pink-600 my-10 md:my-14 uppercase">
+    <section id="services" className="bg-gray-50 px-6 mt-25 md:mt-40">
+      <div className="w-[90%] xl:w-[80%] mx-auto py-20 md:py-25">
+        <h2 className="text-4xl font-extrabold text-center text-pink-600 uppercase">
           Our Services
         </h2>
 
-        <div className="space-y-30 py-10">
+        <div className="space-y-30 mt-20 md:mt-25">
           {services.map((service, index) => (
             <ServiceItem
               key={index}
