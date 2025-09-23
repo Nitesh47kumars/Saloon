@@ -4,12 +4,14 @@ import React from "react";
 
 const FooterLink = ({ href, label }) => {
   return (
-    <a
-      href={href}
-      className="text-sm text-gray-500 hover:text-pink-500 transition"
-    >
-      {label}
-    </a>
+    <li>
+      <a
+        href={href}
+        className="text-sm text-gray-600 hover:text-pink-600 transition-colors duration-200"
+      >
+        {label}
+      </a>
+    </li>
   );
 };
 
