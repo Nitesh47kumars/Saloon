@@ -1,8 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { animation } from '../../Motion/Animation';
 
 const AboutContent = () => {
   return (
-    <div className="w-full md:w-1/2">
+    <motion.div
+      variants={animation("left", 0.4)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+      className="w-full md:w-1/2"
+    >
       <p className="text-gray-700 text-lg leading-relaxed mb-4">
         Welcome to <strong>Glow & Grace Salon</strong> – your destination for beauty, confidence, and self-care.
         We specialize in hair styling, skincare, makeup, and more – tailored exclusively for women who want to
@@ -14,14 +22,13 @@ const AboutContent = () => {
         or just need some “me time,” we're here to help you shine.
       </p>
 
-      {/* CTA Button */}
       <a
         href="#services"
         className="inline-block mt-6 bg-pink-600 text-white px-6 py-3 rounded-md shadow hover:bg-pink-700 transition"
       >
         Explore Our Services
       </a>
-    </div>
+    </motion.div>
   );
 };
 
