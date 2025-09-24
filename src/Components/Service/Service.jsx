@@ -1,5 +1,3 @@
-// src/components/Services/Services.jsx
-
 import React from 'react';
 import ServiceItem from './ServiceItem';
 import services from './Services.json'

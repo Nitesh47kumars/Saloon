@@ -1,5 +1,3 @@
-// components/Footer/FooterLink.jsx
-
 import React from "react";
 
 const FooterLink = ({ href, label }) => {

@@ -1,4 +1,3 @@
-// src/components/Navbar/NavLinks.jsx
 import React from 'react';
 
 const navLinks = [

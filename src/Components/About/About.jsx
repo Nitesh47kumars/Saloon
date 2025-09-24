@@ -1,5 +1,3 @@
-// src/components/About/About.jsx
-
 import React from 'react';
 import AboutImage from './AboutImage';
 import AboutContent from './AboutContent';

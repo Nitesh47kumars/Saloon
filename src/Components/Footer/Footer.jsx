@@ -1,5 +1,3 @@
-// components/Footer/Footer.jsx
-
 import React from "react";
 import FooterSection from "./FooterSection";
 import FooterLink from "./FooterLink";

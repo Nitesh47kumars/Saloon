@@ -1,5 +1,3 @@
-// src/components/About/AboutImage.jsx
-
 import React from 'react';
 
 const AboutImage = () => {

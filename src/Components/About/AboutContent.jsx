@@ -1,5 +1,3 @@
-// src/components/About/AboutContent.jsx
-
 import React from 'react';
 
 const AboutContent = () => {

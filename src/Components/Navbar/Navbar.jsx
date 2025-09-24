@@ -1,4 +1,3 @@
-// src/components/Navbar/Navbar.jsx
 import React, { useState } from 'react';
 import NavLinks from './NavLinks';
 import MobileMenu from './MobileMenu';

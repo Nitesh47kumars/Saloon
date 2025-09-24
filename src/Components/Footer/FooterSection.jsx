@@ -1,5 +1,3 @@
-// components/Footer/FooterSection.jsx
-
 import React from "react";
 
 const FooterSection = ({ title, children }) => {
